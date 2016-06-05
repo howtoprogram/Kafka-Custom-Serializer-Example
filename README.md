@@ -15,15 +15,8 @@ Using commands in create-topics.sh (Linux) and create-topics.bat(Windows)
 
 ## 3. Run the example
 
-### Model #1. Multiple consumers with their own threads
 
-Open the **MultipleConsumersMain.java** 
-
-**Right click -> Run As -> Java Application** or use the shortcut: **Alt+Shift+x, j** to start the main method
-
-### Model #2. Single consumer, multiple worker processing threads
-
-Open the **SingleConsumerMain.java** 
+Open the **CustomSerializerMain.java** 
 
 **Right click -> Run As -> Java Application** or use the shortcut: **Alt+Shift+x, j** to start the main method
 
