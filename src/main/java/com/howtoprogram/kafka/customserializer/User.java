@@ -7,6 +7,32 @@ public class User {
   private String lastName;
   private int age;
 
+
+
+  public User() {
+
+  }
+
+  public User(Long id, String userName, String firstName, String lastName, int age) {
+    super();
+    this.id = id;
+    this.userName = userName;
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+  }
+
+  /*
+   * (non-Javadoc)
+   * 
+   * @see java.lang.Object#toString()
+   */
+  @Override
+  public String toString() {
+    return "User [id=" + id + ", userName=" + userName + ", firstName=" + firstName + ", lastName="
+        + lastName + ", age=" + age + "]";
+  }
+
   /**
    * @return the id
    */
@@ -77,29 +103,4 @@ public class User {
   public void setAge(int age) {
     this.age = age;
   }
-
-  public User() {
-
-  }
-
-  public User(Long id, String userName, String firstName, String lastName, int age) {
-    super();
-    this.id = id;
-    this.userName = userName;
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.age = age;
-  }
-
-  /*
-   * (non-Javadoc)
-   * 
-   * @see java.lang.Object#toString()
-   */
-  @Override
-  public String toString() {
-    return "User [id=" + id + ", userName=" + userName + ", firstName=" + firstName + ", lastName="
-        + lastName + ", age=" + age + "]";
-  }
-
 }

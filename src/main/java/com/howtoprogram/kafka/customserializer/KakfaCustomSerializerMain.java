@@ -6,7 +6,7 @@ public final class KakfaCustomSerializerMain {
 
     String brokers = "localhost:9092";
     String groupId = "group01";
-    String topic = "UserMessageTopic123";
+    String topic = "UserMessageTopic10";
 
     if (args != null && args.length == 3) {
       brokers = args[0];
